@@ -4,6 +4,11 @@ Ini adalah program konsol (terminal) sederhana yang dibuat dengan Java untuk men
 
 Program ini dibuat untuk memenuhi Tugas Praktik 1 Mata Kuliah [Nama Mata Kuliah Anda]. Fokus utama dari program ini adalah untuk mengimplementasikan konsep dasar Pemrograman Berorientasi Objek (OOP) dan struktur logika keputusan tanpa menggunakan struktur perulangan (loop).
 
+🖥️ Demo Program
+
+    https://youtu.be/oMCnooZitwY?si=FltMwq68-QQkcodT
+
+
 📋 Fitur Utama
 
     Data Menu: Program memiliki data menu hardcoded yang terdiri dari 8 item (4 Makanan, 4 Minuman) beserta harganya.
@@ -83,7 +88,7 @@ Bash
 
     java main
 
-    Catatan: Jangan gunakan .java atau .class saat menjalankan. Cukup java diikuti nama class yang berisi method main.
+        PENTING: Jangan gunakan .java atau .class saat menjalankan. Cukup java diikuti nama class yang berisi method main.
 
 🛠️ Detail Implementasi (Pemenuhan Indikator Tugas)
 
@@ -147,7 +152,7 @@ Ini adalah inti dari logika program. Semua skenario ditangani menggunakan strukt
 
             Tidak mendapat diskon maupun promo.
 
-🖥️ Contoh Sesi Program (Skenario Promo BOGO)
+📊 Contoh Output Skenario
 
 Berikut adalah contoh output program jika total pesanan di atas Rp 50.000 tetapi di bawah Rp 100.000.
 
@@ -190,12 +195,4 @@ TOTAL AKHIR                   = Rp    94800.0
            Terima Kasih!
 ==============================================
 
-Catatan: Pada skenario ini, pelanggan mendapat promo BOGO namun tidak mendapat diskon 10%, dan total akhir tidak dikurangi (karena BOGO adalah bonus barang, bukan potongan harga).
-
-👨‍💻 Penulis
-
-    Nama: Oki Taruna
-
-    NIM: 051441949
-
-   
+    Analisis Skenario: Pada contoh ini, pelanggan mendapat promo BOGO (karena subtotal > 50rb dan memesan minuman) namun tidak mendapat diskon 10% (karena subtotal < 100rb). Total akhir tidak dikurangi karena BOGO adalah bonus barang, bukan potongan harga moneter.
